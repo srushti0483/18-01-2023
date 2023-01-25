@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            *{
+                font-size:50px;
+            }
+            #l1,#l2{
+                display: none;
+            }
+            #k1:hover #l1{
+                display: block;
+            }
+            #k2:hover #l2{
+                display:block;
+            }
+        </style>
+        </head>
+        <body>
+            <ul>
+                <li id="k1">item1
+                    <ul id="l1">
+                        <li>item 1a</li>
+                        <li>item 2b</li>
+                        <li>item 3c</li>
+            </ul>
+                </li>
+                <li>item2</li>
+                <li id="k2">item2
+                    <ul id="l2">
+                        <li>item 2a</li>
+                        <li>item 2b</li>
+                    </ul>
+                </li>
+                <li>item3</li>
+                </ul>
+        </body>
+        </html>
