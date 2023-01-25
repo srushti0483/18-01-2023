@@ -1,0 +1,108 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatiable" content="ie=edge">
+        <meta name="viewport" content="width=device-width-initial-scal=1.0">
+        <title>document</title>
+        <style>
+            div{
+                height:100px;
+                width:100px;
+                position:relative;
+                background-color:blue;
+                color:white;
+                text-align: center;
+                transition:5s;
+            }
+            #translate:hover{
+                -webkit-transform:translate(100px,100px);
+                -moz-transform: translate(100px,100px);
+                -ms-transform: translate(100px,100px);
+                -o-transform: translate(100px,100px);
+                transform:translate(100px,100px);
+                background-color:rgb(6, 92, 92) ;
+                color: rgb(245, 248, 249);
+            }
+            #rotate:hover{
+                -webkit-transform:rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform:rotate(360deg);
+                background-color:rgb(6, 92, 92) ;
+                color: rgb(233, 243, 244);
+            }
+            #translate3d:hover{
+                -webkit-transform:translate3d(1,1,0,360deg);
+                -moz-transform:translate3d(1,1,0,360deg);
+                -ms-transform: translate3d(1,1,0,360deg);
+                -o-transform: translate3d(1,1,0,360deg);
+                transform:translate3d(1,1,0,360deg);
+                background-color:rgb(6, 92, 92) ;
+                color: rgb(245, 240, 240);
+            }
+            #box:hover{
+                box-shadow: 0px 0px 30px rgb(9, 1, 22);
+            }
+            #text:hover{
+                text-shadow: 5px 5px rgb(4, 13, 17);
+            }
+            #skew:hover{
+                -webkit-transform:skew(60deg);
+                -moz-transform:skew(60deg);
+                -ms-transform:skew(60deg);
+                -o-transform: skew(60deg);
+                transform:skew(60deg);
+                background-color:rgb(6, 92, 92) ;
+                color: rgb(245, 240, 240);
+            }
+            #scale:hover{
+                -webkit-transform:scale(1.5);
+                -moz-transform:scale(1.5);
+                -ms-transform:scale(1.5);
+                -o-transform: scale(1.5);
+                transform:scale(1.5);
+                background-color:rgb(6, 92, 92) ;
+                color: rgb(245, 240, 240);
+            }
+            #redius:hover{
+                border-radius: 50%;
+            }
+            #rgba:hover{
+                background-color: cadetblue;
+            }
+            #opacity:hover{
+                opacity:0.5;
+            }
+            #overflow{
+                overflow:auto;
+            }
+            </style>
+            </head>
+            <body>
+            <div id="translate">translate</div>
+            <hr>
+            <div id="rotate">rotate</div>
+            <hr>
+            <div id="translate3d">translate3d</div>
+            <hr>
+            <div id="box-shadow">box_shadow</div>
+            <hr>
+            <div id="text-shadow">text_shadow</div>
+            <hr>
+            <div id="skew">skew</div>
+            <hr>
+            <div id="scale">scale</div>
+            <hr>
+            <div id="redius">redius</div>
+            <hr>
+            <div id="rgba">rgba</div>
+            <hr>
+            <div id="opacity">opacity</div>
+            <hr>
+            <div id="overflow">overflow overflow overflow overflow overflow overflow
+                overflow overflow overflow overflow overflow overflow overflow overflow
+            </div>
+            <hr>
+            </body>
+</html>
